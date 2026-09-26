@@ -524,6 +524,7 @@ public class BatchRepairBuildingsWindow extends AbstractWindowSkeleton
 
 					if (builders.size() == 0)
 					{
+						this.assign(building, this.anyBuilder);
 						continue;
 					}
 

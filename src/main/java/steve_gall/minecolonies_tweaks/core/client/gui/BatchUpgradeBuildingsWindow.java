@@ -457,6 +457,7 @@ public class BatchUpgradeBuildingsWindow extends AbstractWindowSkeleton
 
 					if (builders.size() == 0)
 					{
+						this.assign(building, this.anyBuilder);
 						continue;
 					}
 
